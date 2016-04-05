@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+$color : red;
+$size: 400px;
+
+.square{
+  background-color: $color;
+  height: $size;
+  width: $size;
+  color:white;
+  margin: 10px;
+  position:relative;
+  text-align: center;
+
+}
+
+.text{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.text2{
+  position: absolute;
+  font-size: 0.6rem;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.grey-square{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  top:100%;
+  transform: translateY(-100%);
+}
+
+.green-square{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  left:100%;
+  transform: translateX(-100%);
+}
+
+.white-square{
+  position: absolute;
+  height: 110px;
+  width: 80px;
+  background-color: white;
+  color: black;
+}
+
+.black-square{
+  position: absolute;
+  height: 110px;
+  width: 80px;
+  background-color: black;
+  right:0%;
+  top:100%;
+  transform: translateY(-100%);
+
+
+}
+
+.grey-square2{
+  position: absolute;
+  height: 110px;
+  width: 80px;
+  background-color: grey;
+  top:100%;
+  transform: translateY(-100%);
+}
+
+.green-square2{
+  position: absolute;
+  height: 110px;
+  width: 80px;
+  background-color: green;
+  left:100%;
+  transform: translateX(-100%);
+}
+
+
+
