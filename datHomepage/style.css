@@ -1,0 +1,460 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    width: 100%;
+    height: 1920px;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-Regular';
+    src: url('/font/StanleyPoster/Stanley-Poster.ttf');
+}
+
+@font-face {
+    font-family: 'Stanley-Poster';
+    src: url('/font/FoundersGrotesk/FoundersGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'EngraversGothicBT-Regular';
+    src: url('/font/EngraversGothic/EngraversGothicBT-Regular.ttf');
+}
+
+header{
+    height: 45px;
+    width: 100%;
+    border-bottom: solid 1px #999999;
+    font-family: 'FoundersGrotesk-Regular';
+    color: #999999;
+    text-align: center;
+
+}
+
+.header ul{
+    position:relative;
+    display: inline-block;
+}
+
+.header li{
+
+    display: inline-block;
+    line-height: 45px;
+    height: 45px;
+    width: 60px;
+    vertical-align: middle;
+}
+
+.header1{
+    border-right: 1px dotted #999999;
+}
+
+.header2{
+    margin-left: 50%;
+    border-right: 1px dotted grey;
+    color:#000000;
+}
+
+.acceuil{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top:40%;
+    transform: translateY(-40%);
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+    font-family: 'FoundersGrotesk-Regular';
+    color: #000;
+    font-size: 0.8rem;
+
+}
+
+.acceuil ul{
+    position: relative;
+    display: inline-block;
+    margin-left: 15%;
+    text-align: center;
+
+}
+
+.acceuil li {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 60px;
+    height: 60px;
+    width: 80px;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px dotted #999999;
+    text-align: center;
+}
+
+.blog{
+    border: none;
+}
+
+section{
+    position: absolute;
+    font-family: 'FoundersGrotesk-Regular';
+    color: #fff;
+    top:47%;
+    left:15%;
+}
+
+.mode{
+    position: relative;
+    height:500px;
+    width: 1000px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Stanley-Poster';
+}
+
+.imgMode{
+    height: 90%;
+    width: 100%;
+}
+
+.textMode{
+    position: absolute;
+    left:45%;
+    top:45%;
+    transform: translateY(-37%);
+}
+
+.restau{
+    position: relative;
+    height:410px;
+    width: 350px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Stanley-Poster';
+    margin-top: -35px;
+    margin-left: -18px;
+}
+
+.imgRestau{
+    height: 98%;
+    width: 90%;
+
+}
+
+.textRestau{
+    position: absolute;
+    left:10%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.newsletter{
+    position: relative;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'AileronRegular';
+    top : -410px;
+    left: 5px;
+}
+
+.imgNewsletter{
+    height: 15%;
+    width: 35%;
+}
+
+.textNewsletter{
+    position: absolute;
+    left:38%;
+    top:20%;
+}
+
+.inputNewsletter{
+    position: absolute;
+    left:35%;
+    top: 35%;
+    height: 30px;
+    width: 200px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
+#submitNews{
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    border:none;
+    left:55%;
+    top: 35%;
+    background-color: #a9c7bf;
+    font-family: 'AileronBlack';
+    color:#fff;
+}
+
+.socialNetwork{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    background-color: #575757;
+    left:33%;
+    top: 40%;
+
+}
+
+.socialNetworkText{
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'AileronRegular';
+    font-size: 1rem;
+}
+
+.socialNetworkText2{
+    font-family: 'AileronItalic';
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.socialNetwork ul{
+    height: 30px;
+    width: 180px;
+    margin-left: 80px;
+    color: #a9c7bf;
+
+}
+
+.socialNetworkList li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 150%;
+}
+
+.art{
+    height: 580px;
+    width: 280px;
+    position: relative;
+    top: -612px;
+    left: -25px;
+    float: right;
+    font-family: 'Stanley-Poster';
+    font-size: 2.3rem;
+
+}
+
+.imgArt{
+    height: 69.5%;
+    width: 110%;
+
+}
+
+.textArt{
+    width: 320px;
+    position: absolute;
+    left:3%;
+    top:33%;
+}
+
+.infos{
+    position: absolute;
+    top: 165%;
+    display: inline-block;
+    height: 140px;
+    width: 100%;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+
+
+}
+
+.menuList{
+    position: relative;
+    margin-left: 250px;
+    text-align: center;
+    font-family: 'AileronRegular';
+}
+
+#menu, #menu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+
+}
+#menu li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+    padding: 3.5px;
+
+
+}
+#menu ul li{
+    display:inherit;
+    border-radius:0;
+}
+
+#menu ul{
+    position:absolute;
+    max-height:0;
+    left: 0;
+    right: 0;
+}
+
+#menu .titre{
+    margin-right: 270px;
+    padding: 10px;
+}
+
+.sousTitre{
+    position: relative;
+    width: 250px;
+    margin-left: -40px;
+}
+
+.titreList{
+    font-family: 'AileronBold';
+    padding-bottom: 10px;
+}
+
+.inputList{
+    position: absolute;
+    left:-55%;
+    top: 35%;
+    height: 30px;
+    width: 200px;
+    border: 1px solid #999999;
+    background-color: #fff;
+    outline: none;
+}
+
+#submitList{
+    position: absolute;
+    border: 1px solid #999999;
+    width: 100px;
+    height: 34px;
+    border:none;
+    left:95%;
+    top: 35%;
+    background-color: #a9c7bf;
+    font-family: 'AileronBlack';
+    color:#fff;
+}
+
+.socialNetworkListIcon{
+    position: absolute;
+    left:69%;
+    top:78%;
+}
+
+
+.socialNetworkList2 ul{
+    position: absolute;
+    height: 30px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #a9c7bf;
+
+}
+
+.socialNetworkList2 li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+footer{
+    position: absolute;
+    top:185%;
+    transform: translateX(280%);
+    text-align: center;
+    font-family: 'AileronRegular';
+    font-size: 0.8rem;
+}
+
+.menuSlideDown{
+    position: absolute;
+    border: 1px solid #999999;
+    left:23.3%;
+    top: 44.8%;
+    width: 60%;
+    z-index: 1;
+    background-color: #fff;
+    font-family: 'FoundersGrotesk-Regular';
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+
+
+.menuSlideDown p{
+    height: 18px;
+    width: 200px;
+    border-bottom: 1px dotted #999999;
+    margin-left: 15px;
+}
+
+th {
+    width: 20%;
+    text-align: left;
+    padding: 20px;
+
+}
+
+td{
+    width: 10px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.solde{
+    color:darkred;
+}
+
+
+
+
